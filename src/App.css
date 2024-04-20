@@ -1,0 +1,38 @@
+/* App.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.card-img-top {
+  height: 20rem !important;
+  object-fit: contain;
+}
+
+.logo {
+  height: 4em;
+  padding: 0;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.container-fluid {
+  width: 80vw;
+}
